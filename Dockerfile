@@ -31,6 +31,4 @@ RUN curl https://raw.githubusercontent.com/riogor/dotfiles/refs/heads/master/.zs
 
 RUN curl https://raw.githubusercontent.com/riogor/dotfiles/refs/heads/master/.vimrc -o ~/.vimrc
 
-RUN git clone https://github.com/GreengageDB/greengage.git /home/gpadmin/workspace
-
 CMD ["sleep", "infinity"]

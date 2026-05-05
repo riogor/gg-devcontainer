@@ -4,6 +4,7 @@
     "service": "dev-env",
     "workspaceFolder": "/home/gpadmin/workspace",
     "remoteUser": "gpadmin",
+    "postCreateCommand": "if [ ! -d \"greengage\" ]; then git clone https://github.com/GreengageDB/greengage.git; fi",
     "customizations": {
         "vscode": {
             "settings": {
