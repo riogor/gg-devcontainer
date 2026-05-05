@@ -13,6 +13,5 @@ services:
       - SYS_PTRACE
     sysctls:
       - kernel.sem=500 1024000 200 4096
-    init: true
     security_opt:
       - seccomp:unconfined
