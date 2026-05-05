@@ -1,0 +1,20 @@
+{
+    "name": "ggXu22",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev-env",
+    "workspaceFolder": "/home/gpadmin/workspace",
+    "remoteUser": "gpadmin",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            },
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.makefile-tools",
+                "ash-blade.postgresql-hacker-helper"
+            ]
+        }
+    }
+}

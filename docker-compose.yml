@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  dev-env:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/gpadmin/workspace
+    user: gpadmin
+    init: true
+    cap_add:
+      - SYS_PTRACE
+    sysctls:
+      - kernel.sem=500 1024000 200 4096
+    init: true
+    security_opt:
+      - seccomp:unconfined
