@@ -5,7 +5,7 @@
             "name": "(gdb) Attach to Postgres",
             "type": "cppdbg",
             "request": "attach",
-            "program": "",
+            "program": "/home/gpadmin/workspace/build/greengage-db-devel/bin/postgres",
             "processId": "${command:pickProcess}",
             "MIMode": "gdb",
             "setupCommands": [
